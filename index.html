@@ -26,13 +26,36 @@
     <div class="wrapper">
 
         <!-- INÍCIO logo -->
-
         <div class="logo">
             <div class="container"></div>
             <p>Procure um <span>Filme</span></p>
         </div>
-
         <!-- FIM logo -->
+
+         <!-- INÍCIO search container -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie</h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title ..." id="movie-search-box" onkeyup="findMovies()">
+
+                <div class = "search-list" id = "search-list">
+
+                    <!-- list here -->
+
+                    <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "images/medium-cover.jpg">
+                        </div>
+                        <div class = "search-item-info">
+                            <h3>Guardians of the Galaxy Vol. 2</h3>
+                            <p>2017</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- FIM search container -->
 
     </div>
 
