@@ -242,3 +242,22 @@ img {
     color: var(--yellow-color);
     margin: 1rem 0.7rem 0 0;
 }
+
+/* Barra de rolagem */
+
+/* Fundo que corre */
+::-webkit-scrollbar-track {
+    background-color: var(--light-dark-color);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #151515;
+}
+
+/* Linha que desce */
+
+::-webkit-scrollbar-thumb {
+    background: var(--yellow-color);
+    border-radius: 15px;
+}
