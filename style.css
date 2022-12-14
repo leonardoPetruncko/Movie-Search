@@ -4,7 +4,7 @@
     --md-dark-color: #1d1d1d;
     --dark-color: #171717;
     --light-dark-color: #292929;
-    --yellow-color: #d4aa11;
+    --red-color: #7C0A02;
 }
 
 * {
@@ -58,10 +58,13 @@ img {
     color: #fff;
     font-weight: bold;
     padding-left: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .logo p span{
-    color: var(--yellow-color);
+    color: var(--red-color);
 }
 
 /* Search | Title | (Lista de pesquisa com reposição da imagem) */
@@ -150,7 +153,7 @@ img {
 }
 
 .search-list::-webkit-scrollbar-thumb {
-    background-color: var(--yellow-color);
+    background-color: var(--red-color);
     outline: none;
     border-radius: 10px;
 }
@@ -183,7 +186,7 @@ img {
 
 .movie-title{
     font-size: 2rem;
-    color: var(--yellow-color);
+    color: var(--red-color);
 }
 
 .movie-misc-info {
@@ -199,7 +202,7 @@ img {
 }
 
 .movie-info .rated {
-    background-color: var(--yellow-color);
+    background-color: var(--red-color);
     padding: 0.4rem;
     margin: 0 0.4rem;
     border-radius: 3px;
@@ -229,8 +232,9 @@ img {
 }
 
 .movie-info .language {
-    color: var(--yellow-color);
+    color: var(--red-color);
     font-size: italic;
+    font-weight: 900;
 }
 
 .movie-info .awards {
@@ -239,8 +243,9 @@ img {
 }
 
 .movie-info .awards i{
-    color: var(--yellow-color);
+    color: var(--red-color);
     margin: 1rem 0.7rem 0 0;
+    font-size: 1.7em;
 }
 
 /* Barra de rolagem */
@@ -258,7 +263,7 @@ img {
 /* Linha que desce */
 
 ::-webkit-scrollbar-thumb {
-    background: var(--yellow-color);
+    background: var(--red-color);
     border-radius: 15px;
 }
 
